@@ -1,0 +1,21 @@
+{
+  "Group": "KosherKomeiji",
+  "Name": "Fumo",
+  "Version": "1.0.0",
+  "Description": "Adding Fumo's to Hytale!",
+  "Authors": [
+    {
+      "Name": "Kosher Komeiji",
+      "Email": "",
+      "Url": "https://github.com/KosherKomeiji"
+    }
+  ],
+  "Website": "https://github.com/KosherKomeiji",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

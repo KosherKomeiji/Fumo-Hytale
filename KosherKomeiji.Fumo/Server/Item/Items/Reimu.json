@@ -1,0 +1,116 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.fumo.reimu.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Reimu.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Deco_Treasure"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Cutout",
+    "CustomModel": "Resources/Base/Fumo.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Reimu/Reimu.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "HitboxType": "Plant_Full",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Plushie",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CustomModelScale": 0.8,
+    "RotationYawPlacementOffset": "OneEighty"
+  },
+  "PlayerAnimationsId": "Block",
+  "Model": "Resources/Base/Fumo.blockymodel",
+  "Texture": "Resources/Reimu/Reimu.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      356,
+      180,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ],
+    "Family": []
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "RenderDeployablePreview": true,
+  "MaxStack": 1
+}
